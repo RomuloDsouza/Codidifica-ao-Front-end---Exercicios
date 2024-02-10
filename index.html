@@ -5,45 +5,83 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Currículo Profissional</title>
+
+    <link rel="stylesheet" href="index.css">
+
+
 </head>
-<body>
-    <h1> Currículo</h1>
+<body class="texto" >
+    <h1 class="titulo" > Currículo</h1>
     <hr>
-    <h2>Dados pessoais</h2>
-    <p>Nome: Romulo <br>
+    <h2 class="dadosPess" >Dados pessoais</h2>
+    <p class="cabeDaPess" > <strong>Nome:</strong>  Romulo <br>
         <strong>Endereço:</strong>  Rua taltal<br>
         <strong>Bairro :</strong> Bela vista <br>
+        <strong>Telefone :</strong> 999999999 <br>
     </p>
 
     <hr>
-    <h2>Escolaridade</h2>
+    <h2 class="Escolaridade" >Escolaridade</h2>
+
     
-    <p>
-        <strong>Grau de Escolaridade:</strong>Ensino Superior Completo <br>
-        <strong>Curso tecnico:</strong> Mecânica <br>
-        <strong>Curso Superior :</strong> Engenharia  <br>
-    </p>
-    <hr>
+        
+
+        <table class="tabela">
+            <tr> 
+                <th>Grau de Escolaridade: </th>
+                <td>Superior Completo, </td>
+               
+            </tr>
+
+            <tr> 
+                <th>Curso tecnico: </th>
+                <td>Mecânica, </td>
+                <th>Tempo de estudo: </th>
+                <td>Dois anos</td>
+            </tr>
+            <tr> 
+                <th>Curso Superior: </th>
+                <td>Engenharia, </td>
+                <th>Tempo de estudo: </th>
+                <td>cinco anos</td>
+            </tr>
+
+
+
+
+        </table>
+
+    
     <h2>Experiências profissionais</h2>
     <p>
 
         <ol>
-            <li><strong> Experiências :</strong>Pedreiro  </li><br>
-            <li><strong>  Experiências :</strong>Entregador </li><br>
-            <li><strong>  Experiências :</strong>Desenvolvedor full stack </li></li><br>
+            <li><strong>Experiências:</strong><a href="https://pt.wikipedia.org/wiki/Pedreiro" target="_blank" >Pedreiro</a></li> <br>
+            <li><strong>  Experiências :</strong><a href="https://pt.wikipedia.org/wiki/Motoboy" target="_blank"> Entregador </a> </li><br>
+            <li><strong>  Experiências :</strong> <a href="https://pt.frwiki.wiki/wiki/Développeur_full_stack" target="_blank" > Desenvolvedor full stack </a> </li><br>
         </ol>
         <hr>
     </p>
-    <h2>Fale  sobre você </h2>
-    <P>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+    <h2 class="Falesobre" >Fale  sobre você </h2>
+    <P class="resumo" >Lorem ipsum dolor sit amet consectetur adipisicing elit.
          Ad, modi nulla recusandae accusantium sit eum sunt fuga
           esse non architecto voluptatibus consequuntur iure ea rerum
           Lorem ipsum dolor, sit amet consectetur adipisicing elit.
            Consectetur repudiandae voluptatibus eaque ullam ducimus
             mollitia exercitationem. Sunt repudiandae quod perferendis 
-            sit dolore rerum molestias, deserunt, 
+            sit dolore rerum molestias, deserunt,  Lorem ipsum dolor sit 
+            amet consectetur adipisicing elit. Magni aperiam a iusto numquam
+             totam vero sint eveniet obcaecati voluptatem aut quas maiores
+              commodi fugiat corrupti laborum 
+            pariatur voluptates, provident illo?
           error inventore fugit sed? Iusto? quibusdam 
         perspiciatis praesentium magnam? Similique!</P>
+
+        <div class="contato" >
+       <a href="https://github.com" target="_blank"> <img src="img/git.png" width="50px" /></a> 
+       <a href="https://www.linkedin.com/home" target="_blank" > <img src="img/linkedin.png" width="50px"/></a>
+
+        </div>
 
 </body>
 </html>
