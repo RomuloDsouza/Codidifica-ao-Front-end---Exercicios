@@ -1,0 +1,108 @@
+.barraMenu{
+    display: flex;
+    background-color: blanchedalmond;
+    align-items: center;
+    justify-content: space-between ;
+    font-size: 40px;
+    color: blue;
+}
+
+.menu{
+    display: flex;
+}
+
+.menu li{
+    padding:10px ;
+    margin-left: 30px;
+}
+
+.menu li a {
+    padding: 15px;
+    border: 1px solid black;
+    display: block;
+
+}
+
+a{
+    color: currentColor;
+    
+}
+
+.colorsecao{
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
+    color: rgb(14, 11, 190);
+}
+
+.colorsecao2{
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
+    color: brown;
+}
+
+
+.divs{
+    display: flex;
+    margin: 10px;
+    gap: 10px;
+    
+}
+
+.div1, .div2, .div3 {
+   display: flex;
+    border:1px solid black;
+ 
+}
+
+
+
+.divisao{
+    background-color: black;
+    height: 10px;
+    margin: 0px;
+}
+
+
+
+.imagens{
+    display: flex;
+    justify-content: space-around;
+}
+
+.imgDestaque{
+    border: 1px solid black;
+    box-shadow: red 3px 3px 4px;
+
+}
+.imgDestaquee{
+    width: 50%;
+    margin-left: 20%;
+    margin-bottom: 10px;
+
+}
+
+.roda{
+    display: flex;
+    justify-content:space-around;
+    background-color: rgb(243, 52, 90);
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+
+}
+
+.imgRoda{
+    height: 30px;
+
+}
+
+.rodaContato{
+    display: flex;
+
+}
+
+.rodaContato, .p{
+    font-size: 25px;
+}
